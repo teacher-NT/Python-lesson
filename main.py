@@ -1,19 +1,18 @@
-
-class Person:
-    def __init__(self, n, s, a):
+class A:
+    def __init__(self, n):
         self.name = n
-        self.surname = s
-        self.age = a
 
-    def work(self):
-        print("I'm working")
+    def salom(self, ism):
+        print(f"Salom {ism}")
 
-    def info(self):
-        print(self.name, self.surname, self.age)
+class B:
+    def hayr(self, n):
+        print(f"Hayr {n}")
 
-p1 = Person("Umar", "Davlatov", 34)
-p2 = Person("Muzaffar", "A", 19)
+class C(A, B):
+    pass
 
-print(p2.name)
-p1.info()
+c1 = C(1)
+c1.salom("Islom")
+c1.hayr("Xojiakbar")
 
