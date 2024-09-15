@@ -16,3 +16,7 @@ c1 = C(1)
 c1.salom("Islom")
 c1.hayr("Xojiakbar")
 
+"""
+    Git va Github darsi
+"""
+
